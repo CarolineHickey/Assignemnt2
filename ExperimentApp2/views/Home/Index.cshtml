@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+    ~/ Needs the root folder...
+*@
+@{
+    ViewBag.Caroline = "Hickey";  //holds a variable that you can use through out the cshtml
+    ViewBag.CoolClass = "IS 413";
+    ViewBag.Jobs = "Top 3 Jobs:";
+}
+
+
+<body>
+
+    <div id="topjobs" name="topjobs">
+        <!-- My Top three jobs -->
+        <h3>@ViewBag.Jobs</h3> <!-- Razor View Bag code-->
+        <ul id="topjobs">
+            <li> A: Cyber Security Job</li>
+            <li> B: Project Manager Job</li>
+            <li> C: Software Engineer Job</li>
+        </ul>
+    </div>
+
+</body>
+
+
